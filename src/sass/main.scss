@@ -1,0 +1,44 @@
+.header{
+    border-bottom: 4px solid #eee;
+    display: flex;
+    justify-content: center;
+    img{
+        width: 300px;
+    }
+}
+
+.body{
+    &_move{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 60px;
+        padding: 20px 10%;
+        margin-top: 50px;
+        &_text{
+            display: flex;
+            align-items: center;
+            font-size: 17px;
+
+        }
+
+        img{
+            width: 500px;
+        }
+    }
+}
+
+.temp{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    padding: 20px 60px;
+    margin-bottom: 40px;
+    &_text{
+        padding: 20px;
+        border: 5px solid #eee;
+        width: 800px;
+        p{
+            font-size: 16px;
+        }
+    }
+}
